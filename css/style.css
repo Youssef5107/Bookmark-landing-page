@@ -1,0 +1,23 @@
+:root {
+	/* Primary */
+	--Soft-Blue: hsl(231, 69%, 60%);
+	--Soft-Red: hsl(0, 94%, 66%);
+	/* Neutral */
+	--Grayish-Blue: hsl(229, 8%, 60%);
+	--Very-Dark-Blue: hsl(229, 31%, 21%);
+}
+
+@font-face {
+	font-family: bold;
+	src: url(../fonts/Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../fonts/Rubik/static/Rubik-Light.ttf);
+}
+
+@font-face {
+	font-family: medium;
+	src: url(../fonts/Rubik/static/Rubik-Medium.ttf);
+}
