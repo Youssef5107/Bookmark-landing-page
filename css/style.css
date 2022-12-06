@@ -66,3 +66,48 @@ header {
 	border: 2px solid var(--Soft-Red);
 	margin-left: 2px;
 }
+
+section {
+	display: flex;
+	margin: 80px 0px 0px 50px;
+}
+
+.section-title {
+	font-family: medium;
+	font-size: 35px;
+	max-width: 400px;
+}
+
+.section-content {
+	margin-top: 20px;
+	font-family: light;
+	color: var(--Grayish-Blue);
+	max-width: 430px;
+}
+
+.section-btn1 {
+	margin: 40px 15px 0px 0px;
+	color: white;
+	background-color: var(--Soft-Blue);
+	max-width: 150px;
+	width: 100%;
+	height: 40px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.section-btn2 {
+	margin-top: 40px;
+	border-radius: 5px;
+	border: 0px;
+	max-width: 150px;
+	width: 100%;
+	height: 40px;
+}
+
+.section-btn1:hover,
+.section-btn2:hover {
+	background-color: white;
+	border: 2px solid var(--Soft-Blue);
+	color: var(--Soft-Blue);
+}
