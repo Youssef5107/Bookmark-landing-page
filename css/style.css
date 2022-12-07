@@ -64,7 +64,7 @@ header {
 	background-color: white;
 	color: var(--Soft-Red);
 	border: 2px solid var(--Soft-Red);
-	margin-left: 2px;
+	margin: -2px 0px;
 }
 
 section {
@@ -128,4 +128,24 @@ section {
 	top: 350px;
 	right: -100px;
 	border-radius: 100px 0px 0px 185px;
+}
+
+.main-content-area {
+	display: grid;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.main-title {
+	text-align: center;
+	font-family: medium;
+	font-size: 25px;
+}
+
+.main-content {
+	text-align: center;
+	color: var(--Grayish-Blue);
+	max-width: 460px;
+	font-family: light;
+	margin-top: 20px;
 }
