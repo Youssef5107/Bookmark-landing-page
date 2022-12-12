@@ -44,13 +44,13 @@
 		</div>
 
 		<div class="option-bts-area">
-			<button class="main-option-btn">Simple Bookmarking</button>
-			<button class="main-option-btn">Speedy Searching</button>
-			<button class="main-option-btn">Easy Sharing</button>
+			<button class="main-option-btn" onclick="show_hide_divs(`tab1`)">Simple Bookmarking</button>
+			<button class="main-option-btn" onclick="show_hide_divs(`tab2`)">Speedy Searching</button>
+			<button class="main-option-btn" onclick="show_hide_divs(`tab3`)">Easy Sharing</button>
 		</div>
 		<hr>
 
-		<div class="main-option-content-area active">
+		<div class="main-option-content-area active" id="tab1">
 			<div>
 				<div class="option1-img-background"></div>
 				<img class="option-img" src="images/illustration-features-tab-1.svg" alt="">
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="main-option-content-area">
+		<div class="main-option-content-area" id="tab2">
 			<div>
 				<div class="option2-img-background"></div>
 				<img class="option-img" style="margin-left: 245px;" src="images/illustration-features-tab-2.svg" alt="">
@@ -82,7 +82,7 @@
 			</div>
 		</div>
 
-		<div class="main-option-content-area ">
+		<div class="main-option-content-area" id="tab3">
 			<div>
 				<div class="option3-img-background"></div>
 				<img class="option-img" style="margin-left:200px ;" src="images/illustration-features-tab-3.svg" alt="">
@@ -97,7 +97,6 @@
 				</div>
 			</div>
 		</div>
-
 	</main>
 
 	<script src="javascript/javascript.js"></script>
