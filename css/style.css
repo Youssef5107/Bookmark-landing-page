@@ -147,7 +147,7 @@ section {
 	color: var(--Grayish-Blue);
 	max-width: 460px;
 	font-family: light;
-	margin-top: 20px;
+	margin: 20px auto;
 }
 
 .option-bts-area {
@@ -231,4 +231,59 @@ hr {
 	max-width: 100px;
 	width: 100%;
 	margin-top: 30px;
+}
+
+.browser-cards-area {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.card {
+	margin-right: 20px;
+	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
+	max-width: 450px;
+	width: 100%;
+	height: fit-content;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.main-card-img-area {
+	display: flex;
+	justify-content: center;
+}
+
+.card-browser {
+	font-family: medium;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.browser-version {
+	text-align: center;
+	margin-top: 7px;
+	font-size: 12px;
+	font-family: light;
+	color: var(--Grayish-Blue);
+}
+
+.card-dotted-line {
+	max-width: 450px;
+	width: 100%;
+	border-top: 3px dotted var(--Grayish-Blue);
+	margin-top: 25px;
+}
+
+.card-btn {
+	text-align: center;
+	color: white;
+	font-family: medium;
+	background-color: var(--Soft-Blue);
+	height: 35px;
+	border-radius: 5px;
+	border: 0px;
+	margin-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
