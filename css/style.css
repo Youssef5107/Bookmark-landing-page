@@ -287,3 +287,55 @@ hr {
 	padding-right: 15px;
 	padding-left: 15px;
 }
+
+.help-area {
+	margin: 50px auto;
+	max-width: 500px;
+	width: 100%;
+}
+
+.question-area {
+	display: flex;
+}
+
+.question {
+	margin-top: 10px;
+	font-family: light;
+}
+
+.arrow-area {
+	display: flex;
+	flex-grow: 1;
+	justify-content: end;
+}
+
+.arrow {
+	width: 15px;
+	height: 10px;
+	position: relative;
+	top: 15px;
+}
+
+.answer {
+	max-width: 450px;
+	width: 100%;
+	font-family: light;
+	color: var(--Grayish-Blue);
+	margin-top: 20px;
+	font-size: 14px;
+	display: none;
+}
+
+.acordion-hr {
+	margin-top: 20px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.active-answer {
+	display: block;
+}
+
+.active-arrow {
+	transform: rotate(180deg);
+}
