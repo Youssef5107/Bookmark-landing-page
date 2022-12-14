@@ -339,3 +339,9 @@ hr {
 .active-arrow {
 	transform: rotate(180deg);
 }
+
+.option-btn-area {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
