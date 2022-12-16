@@ -122,13 +122,14 @@ section {
 .img-background {
 	position: absolute;
 	background-color: var(--Soft-Blue);
-	max-width: 600px;
+	max-width: 550px;
 	width: 100%;
 	height: 330px;
 	top: 310px;
-	right: -100px;
 	border-radius: 100px 0px 0px 185px;
 }
+
+
 
 .main-content-area {
 	display: grid;
@@ -394,3 +395,34 @@ hr {
 	border-radius: 5px;
 	color: white;
 }
+
+.lower-footer-area {
+	background-color: var(--Very-Dark-Blue);
+	display: flex;
+	align-items: center;
+	margin: -8px;
+	height: 70px;
+}
+
+.footer-bookmark-logo {
+	width: 200px;
+	height: 30px;
+	margin: auto 50px auto 70px;
+}
+
+.footer-options {
+	margin-right: 20px;
+	font-family: light;
+	color: white;
+	font-size: 14px;
+}
+
+.social-icons-area {
+	display: flex;
+	justify-content: end;
+	margin-right: 50px;
+}
+
+.facebook {}
+
+.twitter {}
