@@ -332,11 +332,11 @@ hr {
 	width: 100%;
 }
 
-.active-answer {
+.active-acordion.answer {
 	display: block;
 }
 
-.active-arrow {
+.active-acordion.arrow {
 	transform: rotate(180deg);
 }
 
@@ -344,4 +344,53 @@ hr {
 	display: flex;
 	justify-content: center;
 	flex-grow: 1;
+}
+
+.footer {
+	margin-top: 150px;
+}
+
+.upper-footer-area {
+	height: 300px;
+	background-color: var(--Soft-Blue);
+	margin: -8px;
+}
+
+.joined-people {
+	text-align: center;
+	font-family: light;
+	color: white;
+	padding-top: 50px;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+.stay-up-to-date {
+	text-align: center;
+	max-width: 390px;
+	font-size: 30px;
+	font-family: 'light';
+	color: white;
+	margin: 30px auto;
+}
+
+.input-area {
+	display: flex;
+	justify-content: center;
+}
+
+.email-bar {
+	height: 35px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.submit-btn {
+	background-color: var(--Soft-Red);
+	margin-left: 20px;
+	width: 100px;
+	height: 37px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
 }
