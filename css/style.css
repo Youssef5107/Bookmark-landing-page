@@ -440,4 +440,7 @@ hr {
 
 .facebook {}
 
-.twitter {}
+.twitter {
+	width: 30px;
+	height: 30px;
+}
