@@ -344,11 +344,11 @@ hr {
 	width: 100%;
 }
 
-.active-acordion.answer {
+.active-acordion .answer {
 	display: block;
 }
 
-.active-acordion.arrow {
+.active-acordion .arrow {
 	transform: rotate(180deg);
 }
 
@@ -441,6 +441,5 @@ hr {
 .facebook {}
 
 .twitter {
-	width: 30px;
-	height: 30px;
+	color: white;
 }
