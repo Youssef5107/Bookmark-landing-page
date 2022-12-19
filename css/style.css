@@ -471,19 +471,24 @@ hr {
 	color: var(--Soft-Red);
 }
 
-@media(max-width:1000px) {
+@media(max-width:1000px) and (min-width: 700px) {
 	section {
-		flex-wrap: wrap-reverse;
+		flex-wrap: wrap;
 	}
 
-	.section-title {
-		margin-top: 70px;
+	.section-img-area {
+		margin-top: 50px;
+	}
+
+	.img-background {
+		top: 680px;
 	}
 
 }
 
 @media(max-width:700px) {
 	section {
+		flex-wrap: wrap-reverse;
 		justify-content: center;
 		margin-left: 0px;
 	}
