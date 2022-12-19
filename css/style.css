@@ -293,7 +293,8 @@ hr {
 	background-color: white;
 	color: var(--Soft-Blue);
 	border: 2px solid var(--Soft-Blue);
-
+	padding-right: 13px;
+	padding-left: 13px;
 }
 
 .help-area {
@@ -392,9 +393,10 @@ hr {
 }
 
 .email-bar {
-	height: 35px;
+	height: 17px;
 	border-radius: 5px;
 	border: 0px;
+	padding: 10px;
 }
 
 .submit-btn {
