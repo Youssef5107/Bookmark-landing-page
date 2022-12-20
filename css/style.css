@@ -592,4 +592,14 @@ hr {
 	.option-btn-area {
 		justify-content: center;
 	}
+
+	.browser-cards-area {
+		flex-wrap: wrap;
+		margin: 50px 30px auto 30px;
+	}
+
+	.card {
+		max-width: 180px;
+		width: 100%;
+	}
 }
