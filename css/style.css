@@ -155,7 +155,7 @@ section {
 	margin: 20px auto;
 }
 
-.option-bts-area {
+.option-btns-area {
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
@@ -548,5 +548,48 @@ hr {
 		width: 100%;
 		height: 300px;
 		margin-left: 30px;
+	}
+
+	.option-btns-area {
+		flex-wrap: wrap;
+		margin: auto 32% auto 32%;
+	}
+
+	.main-option-content-area {
+		flex-wrap: wrap;
+	}
+
+	.option1-img-background,
+	.option2-img-background,
+	.option3-img-background {
+		max-width: 295px;
+		width: 100%;
+		top: 1235px;
+		height: 200px;
+	}
+
+	.option-img1,
+	.option-img2,
+	.option-img3 {
+		width: 300px;
+		height: 200px;
+		margin-left: 60px;
+	}
+
+	.option-content-area {
+		margin: 100px 40px auto 0px;
+		justify-content: center;
+	}
+
+	.option-title {
+		text-align: center;
+	}
+
+	.option-content {
+		text-align: center;
+	}
+
+	.option-btn-area {
+		justify-content: center;
 	}
 }
