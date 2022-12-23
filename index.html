@@ -20,14 +20,15 @@
 			<button class="login-btn">Login</button>
 		</div>
 		<!-- active-nav -->
-		<div role="button" class="burger-meun-area" onclick="show_hide_meun(`active-meun`,`section-img-area`)">
+		<div role="button" class="burger-meun-area" onclick="show_meun(`active-meun`,`section-img-area`)">
 			<img class="burger-img" src="images/icon-hamburger.svg" alt="">
 		</div>
 		<nav class="active-meun">
 			<div class="active-meun-header">
 				<img src="images/logo-bookmark2.7f796a617f6a7127dd0b784932f712ee.svg" alt="">
 				<div class="close-area-btn">
-					<img class="close-btn" role="button" src="images/icon-close.svg" alt="">
+					<img class="close-btn" role="button" onclick="hide_meun(`active-meun`,`section-img-area`)"
+						src="images/icon-close.svg" alt="">
 				</div>
 			</div>
 			<div class="active-meun-option-btns-area">
