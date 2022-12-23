@@ -18,3 +18,12 @@ function show_hide_answers(clickedBtn_acordion) {
 	}
 	else (clickedBtn_acordion.classList.add("active-acordion"))
 }
+
+function show_hide_meun(visibleMeun, sectionIMG) {
+	var meun = document.querySelector("." + visibleMeun);
+	var img = document.querySelector("." + sectionIMG);
+
+	meun.style.display = "block";
+	img.style.opacity = "0.1";
+
+}
