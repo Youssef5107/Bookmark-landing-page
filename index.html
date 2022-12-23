@@ -11,228 +11,237 @@
 </head>
 
 <body>
+	<div>
+		<header>
+			<div class="bookMark" role="button"><img src="images/logo-bookmark.svg" alt=""></div>
+			<div class="main-header-options">
+				<button class="header-options">Features</button>
+				<button class="header-options">Pricing</button>
+				<button class="header-options">Contact</button>
+				<button class="login-btn">Login</button>
+			</div>
+			<div role="button" class="burger-meun-area">
+				<img class="burger-img" src="images/icon-hamburger.svg" alt="">
+			</div>
+			<div class="active-meun">
 
-	<header>
-		<div class="bookMark" role="button"><img src="images/logo-bookmark.svg" alt=""></div>
-		<div class="main-header-options">
-			<button class="header-options">Features</button>
-			<button class="header-options">Pricing</button>
-			<button class="header-options">Contact</button>
-			<button class="login-btn">Login</button>
-		</div>
-		<div class="burger-meun-area">
-			<img class="burger-img" src="images/icon-hamburger.svg" alt="">
-		</div>
-	</header>
-	<section>
-		<div class="section-content-area">
-			<div class="section-title">A Simple Bookmark Manager</div>
-			<div class="section-content">A clean and simple interface to organize your favourite websites. Open a new
-				browser tab and see your sites load instantly. Try it for free.</div>
-			<div class="section-btn-area">
-				<button class="section-btn1">Get it on Chrome</button>
-				<button class="section-btn2">Get it on Firefox</button>
 			</div>
-		</div>
-		<div class="section-img-area">
-			<div class="img-background"></div>
-			<img class="section-img" src="images/illustration-hero.svg" alt="">
-		</div>
-	</section>
-	<main>
-		<div class="main-content-area">
-			<div class="main-title">
-				Features
+		</header>
+		<section>
+			<div class="section-content-area">
+				<div class="section-title">A Simple Bookmark Manager</div>
+				<div class="section-content">A clean and simple interface to organize your favourite websites. Open a
+					new
+					browser tab and see your sites load instantly. Try it for free.</div>
+				<div class="section-btn-area">
+					<button class="section-btn1">Get it on Chrome</button>
+					<button class="section-btn2">Get it on Firefox</button>
+				</div>
 			</div>
+			<div class="section-img-area">
+				<div class="img-background"></div>
+				<img class="section-img" src="images/illustration-hero.svg" alt="">
+			</div>
+		</section>
+		<main>
+			<div class="main-content-area">
+				<div class="main-title">
+					Features
+				</div>
+				<div class="main-content">
+					Our aim is to make it quick and easy for you to access your favourite websites.
+					Your bookmarks sync between your devices so you can access them on the go.
+				</div>
+			</div>
+
+			<div class="option-btns-area">
+				<button class="main-option-btn" onclick="show_hide_divs(`tab1`)">Simple Bookmarking</button>
+				<button class="main-option-btn" onclick="show_hide_divs(`tab2`)">Speedy Searching</button>
+				<button class="main-option-btn" onclick="show_hide_divs(`tab3`)">Easy Sharing</button>
+			</div>
+			<hr>
+
+			<div class="main-option-content-area active" id="tab1">
+				<div>
+					<div class="option1-img-background"></div>
+					<img class="option-img1" src="images/illustration-features-tab-1.svg" alt="">
+				</div>
+				<div class="option-content-area">
+					<div>
+						<div class="option-title">Bookmark in one click</div>
+						<div class="option-content">Organize your bookmarks however you like. Our simple drag-and-drop
+							interface
+							gives you complete control over how you manage your favourite sites.</div>
+						<div class="option-btn-area">
+							<button class="option-btn">More Info</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-option-content-area" id="tab2">
+				<div>
+					<div class="option2-img-background"></div>
+					<img class="option-img2" src="images/illustration-features-tab-2.svg" alt="">
+				</div>
+				<div class="option-content-area">
+					<div>
+						<div class="option-title">Intelligent search</div>
+						<div class="option-content">Our powerful search feature will help you find saved sites in no
+							time at
+							all.
+							No need to trawl through all of your bookmarks.</div>
+						<div class="option-btn-area">
+							<button class="option-btn">More Info</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-option-content-area" id="tab3">
+				<div>
+					<div class="option3-img-background"></div>
+					<img class="option-img3" src="images/illustration-features-tab-3.svg" alt="">
+				</div>
+				<div class="option-content-area">
+					<div>
+						<div class="option-title">Share your bookmarks</div>
+						<div class="option-content">Easily share your bookmarks and collections with others. Create a
+							shareable
+							link that you can send at the click of a button.</div>
+						<div class="option-btn-area">
+							<button class="option-btn">More Info</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-content-area" style="margin-top:200px;">
+				<div class="main-title">Download the extension</div>
+				<div class="main-content">
+					We’ve got more browsers in the pipeline. Please do let us know if you’ve
+					got a favourite you’d like us to prioritize.
+				</div>
+				<div class="browser-cards-area">
+					<div class="card">
+						<div class="main-card-img-area">
+							<img src="images/logo-chrome.svg" alt="Chrome">
+						</div>
+
+						<div class="card-browser">Add to Chrome</div>
+						<div class="browser-version">Minimum version 62</div>
+						<hr class="card-dotted-line">
+						<button class="card-btn">Add & Install Extension</button>
+					</div>
+					<div class="card" style="margin-top:40px;">
+						<div class="main-card-img-area">
+							<img src="images/logo-firefox.svg" alt="Firefox">
+						</div>
+
+						<div class="card-browser">Add to Firefox</div>
+						<div class="browser-version">Minimum version 55</div>
+						<hr class="card-dotted-line">
+						<button class="card-btn">Add & Install Extension</button>
+					</div>
+					<div class="card" style="margin-top:80px;">
+						<div class="main-card-img-area">
+							<img src="images/logo-opera.svg" alt="Opera">
+						</div>
+
+						<div class="card-browser">Add to Opera</div>
+						<div class="browser-version">Minimum version 46</div>
+						<hr class="card-dotted-line">
+						<button class="card-btn">Add & Install Extension</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div style="margin-top:150px;">
+			<div class="main-title">Frequently Asked Questions</div>
 			<div class="main-content">
-				Our aim is to make it quick and easy for you to access your favourite websites.
-				Your bookmarks sync between your devices so you can access them on the go.
+				Here are some of our FAQs. If you have any other questions you’d like
+				answered please feel free to email us.
 			</div>
-		</div>
-
-		<div class="option-btns-area">
-			<button class="main-option-btn" onclick="show_hide_divs(`tab1`)">Simple Bookmarking</button>
-			<button class="main-option-btn" onclick="show_hide_divs(`tab2`)">Speedy Searching</button>
-			<button class="main-option-btn" onclick="show_hide_divs(`tab3`)">Easy Sharing</button>
-		</div>
-		<hr>
-
-		<div class="main-option-content-area active" id="tab1">
-			<div>
-				<div class="option1-img-background"></div>
-				<img class="option-img1" src="images/illustration-features-tab-1.svg" alt="">
-			</div>
-			<div class="option-content-area">
-				<div>
-					<div class="option-title">Bookmark in one click</div>
-					<div class="option-content">Organize your bookmarks however you like. Our simple drag-and-drop
-						interface
-						gives you complete control over how you manage your favourite sites.</div>
-					<div class="option-btn-area">
-						<button class="option-btn">More Info</button>
+			<div class="help-area">
+				<div class="main-idea" onclick="show_hide_answers(this)">
+					<div class="question-area">
+						<div class="question">What is Bookmark?</div>
+						<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
+					</div>
+					<div class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+						justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
 					</div>
 				</div>
-			</div>
-		</div>
-
-		<div class="main-option-content-area" id="tab2">
-			<div>
-				<div class="option2-img-background"></div>
-				<img class="option-img2" src="images/illustration-features-tab-2.svg" alt="">
-			</div>
-			<div class="option-content-area">
-				<div>
-					<div class="option-title">Intelligent search</div>
-					<div class="option-content">Our powerful search feature will help you find saved sites in no time at
-						all.
-						No need to trawl through all of your bookmarks.</div>
-					<div class="option-btn-area">
-						<button class="option-btn">More Info</button>
+				<hr class="acordion-hr">
+				<div class="main-idea" onclick="show_hide_answers(this)">
+					<div class="question-area">
+						<div class="question">How can I request a new browser?</div>
+						<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
+					</div>
+					<div class="answer">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies
+						non
+						ligula.
+						Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+						ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+						Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
 					</div>
 				</div>
-			</div>
-		</div>
-
-		<div class="main-option-content-area" id="tab3">
-			<div>
-				<div class="option3-img-background"></div>
-				<img class="option-img3" src="images/illustration-features-tab-3.svg" alt="">
-			</div>
-			<div class="option-content-area">
-				<div>
-					<div class="option-title">Share your bookmarks</div>
-					<div class="option-content">Easily share your bookmarks and collections with others. Create a
-						shareable
-						link that you can send at the click of a button.</div>
-					<div class="option-btn-area">
-						<button class="option-btn">More Info</button>
+				<hr class="acordion-hr">
+				<div class="main-idea" onclick="show_hide_answers(this)">
+					<div class="question-area">
+						<div class="question">Is there a mobile app?</div>
+						<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
+					</div>
+					<div class="answer">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum
+						dolor,
+						ut
+						condimentum
+						urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+						sollicitudin ex et ultricies bibendum.
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="main-content-area" style="margin-top:200px;">
-			<div class="main-title">Download the extension</div>
-			<div class="main-content">
-				We’ve got more browsers in the pipeline. Please do let us know if you’ve
-				got a favourite you’d like us to prioritize.
-			</div>
-			<div class="browser-cards-area">
-				<div class="card">
-					<div class="main-card-img-area">
-						<img src="images/logo-chrome.svg" alt="Chrome">
+				<hr class="acordion-hr">
+				<div class="main-idea" onclick="show_hide_answers(this)">
+					<div class="question-area">
+						<div class="question">What about other Chromium browsers?</div>
+						<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
 					</div>
-
-					<div class="card-browser">Add to Chrome</div>
-					<div class="browser-version">Minimum version 62</div>
-					<hr class="card-dotted-line">
-					<button class="card-btn">Add & Install Extension</button>
-				</div>
-				<div class="card" style="margin-top:40px;">
-					<div class="main-card-img-area">
-						<img src="images/logo-firefox.svg" alt="Firefox">
+					<div class="answer">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at
+						euismod
+						dui.
+						Aliquam
+						vitae neque eget nisl gravida pellentesque non ut velit.
 					</div>
+				</div>
+				<hr class="acordion-hr">
+				<div class="option-btn-area">
+					<button class="option-btn">More Info</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="upper-footer-area">
+				<div class="joined-people">35,000+ already joined</div>
+				<div class="stay-up-to-date">Stay up-to-date with what we’re doing</div>
+				<div class="input-area">
+					<input class="email-bar" type="email" placeholder="Enter your email address">
+					<input class="submit-btn" type="submit" value="contact us">
+				</div>
+			</div>
+			<div class="lower-footer-area">
+				<img class="footer-bookmark-logo" src="images/logo-bookmark2.7f796a617f6a7127dd0b784932f712ee.svg"
+					alt="">
+				<div class="footer-options">Features</div>
+				<div class="footer-options">Pricing</div>
+				<div class="footer-options">Contact</div>
+				<div class="social-icons-area">
+					<a href="https://www.facebook.com/" target="_blank"><i
+							class="fa-brands fa-facebook-f facebook"></i></a>
+					<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a>
+				</div>
+			</div>
+		</footer>
 
-					<div class="card-browser">Add to Firefox</div>
-					<div class="browser-version">Minimum version 55</div>
-					<hr class="card-dotted-line">
-					<button class="card-btn">Add & Install Extension</button>
-				</div>
-				<div class="card" style="margin-top:80px;">
-					<div class="main-card-img-area">
-						<img src="images/logo-opera.svg" alt="Opera">
-					</div>
-
-					<div class="card-browser">Add to Opera</div>
-					<div class="browser-version">Minimum version 46</div>
-					<hr class="card-dotted-line">
-					<button class="card-btn">Add & Install Extension</button>
-				</div>
-			</div>
-		</div>
-	</main>
-	<div style="margin-top:150px;">
-		<div class="main-title">Frequently Asked Questions</div>
-		<div class="main-content">
-			Here are some of our FAQs. If you have any other questions you’d like
-			answered please feel free to email us.
-		</div>
-		<div class="help-area">
-			<div class="main-idea" onclick="show_hide_answers(this)">
-				<div class="question-area">
-					<div class="question">What is Bookmark?</div>
-					<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
-				</div>
-				<div class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
-					justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-				</div>
-			</div>
-			<hr class="acordion-hr">
-			<div class="main-idea" onclick="show_hide_answers(this)">
-				<div class="question-area">
-					<div class="question">How can I request a new browser?</div>
-					<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
-				</div>
-				<div class="answer">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non
-					ligula.
-					Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
-					ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
-					Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-				</div>
-			</div>
-			<hr class="acordion-hr">
-			<div class="main-idea" onclick="show_hide_answers(this)">
-				<div class="question-area">
-					<div class="question">Is there a mobile app?</div>
-					<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
-				</div>
-				<div class="answer">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor,
-					ut
-					condimentum
-					urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
-					sollicitudin ex et ultricies bibendum.
-				</div>
-			</div>
-			<hr class="acordion-hr">
-			<div class="main-idea" onclick="show_hide_answers(this)">
-				<div class="question-area">
-					<div class="question">What about other Chromium browsers?</div>
-					<div class="arrow-area"><img class="arrow" src="images/icon-arrow.svg" alt="arrow"></div>
-				</div>
-				<div class="answer">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod
-					dui.
-					Aliquam
-					vitae neque eget nisl gravida pellentesque non ut velit.
-				</div>
-			</div>
-			<hr class="acordion-hr">
-			<div class="option-btn-area">
-				<button class="option-btn">More Info</button>
-			</div>
-		</div>
-
-	</div>
-	<footer>
-		<div class="upper-footer-area">
-			<div class="joined-people">35,000+ already joined</div>
-			<div class="stay-up-to-date">Stay up-to-date with what we’re doing</div>
-			<div class="input-area">
-				<input class="email-bar" type="email" placeholder="Enter your email address">
-				<input class="submit-btn" type="submit" value="contact us">
-			</div>
-		</div>
-		<div class="lower-footer-area">
-			<img class="footer-bookmark-logo" src="images/logo-bookmark2.7f796a617f6a7127dd0b784932f712ee.svg" alt="">
-			<div class="footer-options">Features</div>
-			<div class="footer-options">Pricing</div>
-			<div class="footer-options">Contact</div>
-			<div class="social-icons-area">
-				<a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f facebook"></i></a>
-				<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter twitter"></i></a>
-			</div>
-		</div>
-	</footer>
-
-	<script src="javascript/javascript.js"></script>
+		<script src="javascript/javascript.js"></script>
 </body>
 
 </html>
