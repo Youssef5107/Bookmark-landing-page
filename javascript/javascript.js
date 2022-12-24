@@ -1,4 +1,4 @@
-function show_hide_divs(clickedBtn) {
+function show_hide_divs(clickedBtn, activeButton) {
 	var visibleDiv = document.querySelectorAll(".main-option-content-area");
 	for (i = 0; i < visibleDiv.length; i++) {
 		visibleDiv[i].classList.remove("active");

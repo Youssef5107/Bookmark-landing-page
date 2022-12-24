@@ -56,7 +56,8 @@ header {
 
 .active-meun-header {
 	display: flex;
-	margin: 70px;
+	margin: 40px;
+	margin-bottom: 100px;
 }
 
 .close-area-btn {
@@ -82,6 +83,12 @@ header {
 	text-align: center;
 }
 
+.active-meun-login-btn:hover {
+	background-color: white;
+	color: var(--Soft-Blue);
+	border: 2px solid var(--Soft-Blue);
+}
+
 .active-meun-login-btn {
 	text-align: center;
 	color: white;
@@ -89,7 +96,7 @@ header {
 	font-family: 'light';
 	margin-top: 40px;
 	border: 2px solid white;
-	max-width: 480px;
+	max-width: 400px;
 	margin: 40px auto;
 	padding: 10px;
 	width: 100%;
