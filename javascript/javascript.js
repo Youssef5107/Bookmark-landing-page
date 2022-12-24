@@ -19,19 +19,27 @@ function show_hide_answers(clickedBtn_acordion) {
 	else (clickedBtn_acordion.classList.add("active-acordion"))
 }
 
-function show_meun(visibleMeun, sectionIMG) {
+function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
+	var hiddenMeun = document.querySelector("." + burgerMeun);
+	var Logo = document.querySelector("." + hiddenLogo);
 
+	hiddenMeun.style.display = "none";
+	Logo.style.display = "none";
 	meun.style.display = "block";
 	img.style.opacity = "0.1";
 
 }
 
-function hide_meun(visibleMeun, sectionIMG) {
+function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
+	var hiddenMeun = document.querySelector("." + burgerMeun);
+	var Logo = document.querySelector("." + hiddenLogo);
 
+	hiddenMeun.style.display = "block";
+	Logo.style.display = "block";
 	meun.style.display = "none";
 	img.style.opacity = "1";
 
