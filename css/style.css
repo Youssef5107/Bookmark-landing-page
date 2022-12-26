@@ -804,4 +804,8 @@ hr {
 
 		margin: 22px auto;
 	}
+
+	hr {
+		max-width: 300px;
+	}
 }
