@@ -839,4 +839,13 @@ hr {
 		width: 104%;
 	}
 
+	.email-bar {
+		width: 100%;
+	}
+
+	.submit-btn {
+		width: 100%;
+		margin: 20px 0px;
+	}
+
 }
