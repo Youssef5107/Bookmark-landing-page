@@ -848,4 +848,21 @@ hr {
 		margin: 20px 0px;
 	}
 
+	.option-img1,
+	.option-img2,
+	.option-img3 {
+		width: 240px;
+		height: 165px;
+		margin-left: 27px;
+	}
+
+	.option1-img-background,
+	.option2-img-background,
+	.option3-img-background {
+		max-width: 250px;
+		width: 100%;
+		top: 1222px;
+		height: 155px;
+	}
+
 }
