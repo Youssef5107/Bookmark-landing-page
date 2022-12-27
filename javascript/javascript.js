@@ -1,4 +1,11 @@
-function show_hide_divs(clickedBtn, activeButton) {
+function show_hide_divs(clickedBtn, activeHr, inactiveHr) {
+	var hr = document.querySelector("." + activeHr);
+	var inactivehr = document.querySelectorAll("." + inactiveHr);
+	for (i = 0; i < inactivehr.length; i++) {
+		inactivehr[i].classList.remove("active-hr")
+	}
+	hr.classList.add("active-hr")
+
 	var visibleDiv = document.querySelectorAll(".main-option-content-area");
 	for (i = 0; i < visibleDiv.length; i++) {
 		visibleDiv[i].classList.remove("active");
