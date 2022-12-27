@@ -270,6 +270,10 @@ section {
 	background-color: white;
 }
 
+.active-main-option-btn {
+	font-family: medium;
+}
+
 
 .option-btn1-hr,
 .option-btn2-hr,

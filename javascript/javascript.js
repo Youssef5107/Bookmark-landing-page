@@ -1,10 +1,18 @@
-function show_hide_divs(clickedBtn, activeHr, inactiveHr) {
+function show_hide_divs(clickedBtn, activeHr, inactiveHr, buttonName) {
 	var hr = document.querySelector("." + activeHr);
 	var inactivehr = document.querySelectorAll("." + inactiveHr);
+
 	for (i = 0; i < inactivehr.length; i++) {
 		inactivehr[i].classList.remove("active-hr")
 	}
-	hr.classList.add("active-hr")
+	hr.classList.add("active-hr");
+
+	var btnFontStyle = document.querySelectorAll(".main-option-btn");
+	for (i = 0; i < btnFontStyle.length; i++) {
+		btnFontStyle[i].classList.remove("active-main-option-btn")
+	}
+
+	buttonName.classList.add("active-main-option-btn")
 
 	var visibleDiv = document.querySelectorAll(".main-option-content-area");
 	for (i = 0; i < visibleDiv.length; i++) {
