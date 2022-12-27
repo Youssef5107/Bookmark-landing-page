@@ -270,6 +270,21 @@ section {
 	background-color: white;
 }
 
+
+.option-btn1-hr,
+.option-btn2-hr,
+.option-btn3-hr {
+	width: 100px;
+	margin-top: 10px;
+	border: 1px solid red;
+	height: 0px;
+	display: none;
+}
+
+.active-hr {
+	display: block;
+}
+
 hr {
 	margin-top: 15px;
 	width: 550px;
