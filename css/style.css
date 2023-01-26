@@ -287,6 +287,8 @@ section {
 
 .active-hr {
 	display: block;
+	position: relative;
+	right: 20px;
 }
 
 hr {
@@ -657,6 +659,8 @@ hr {
 		margin: auto 40px auto 50px;
 	}
 
+
+
 }
 
 @media(max-width:630px) {
@@ -818,9 +822,7 @@ hr {
 	.social-icons-area {
 		display: flex;
 		flex-grow: 1;
-
 		justify-content: center;
-
 		margin: 22px auto;
 	}
 
@@ -832,6 +834,11 @@ hr {
 @media(max-width:510px) {
 	.main-option-btn {
 		margin: auto 0px auto 0px;
+	}
+
+	.active-hr {
+		position: relative;
+		right: 0px;
 	}
 }
 
