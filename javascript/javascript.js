@@ -34,28 +34,32 @@ function show_hide_answers(clickedBtn_acordion) {
 	else (clickedBtn_acordion.classList.add("active-acordion"))
 }
 
-function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
+function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo, body) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
 	var hiddenMeun = document.querySelector("." + burgerMeun);
 	var Logo = document.querySelector("." + hiddenLogo);
+	var fixedbody = document.querySelector("body");
 
 	hiddenMeun.style.display = "none";
 	Logo.style.display = "none";
 	meun.style.display = "block";
 	img.style.opacity = "0.1";
+	fixedbody.style.position = "fixed";
 
 }
 
-function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
+function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo, body) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
 	var hiddenMeun = document.querySelector("." + burgerMeun);
 	var Logo = document.querySelector("." + hiddenLogo);
+	var freebody = document.querySelector("body");
 
 	hiddenMeun.style.display = "block";
 	Logo.style.display = "block";
 	meun.style.display = "none";
 	img.style.opacity = "1";
+	freebody.style.position = "relative";
 
 }
