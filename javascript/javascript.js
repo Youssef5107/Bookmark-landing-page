@@ -12,7 +12,7 @@ function show_hide_divs(clickedBtn, activeHr, inactiveHr, buttonName) {
 		btnFontStyle[i].classList.remove("active-main-option-btn")
 	}
 
-	buttonName.classList.add("active-main-option-btn")
+	buttonName.classList.add("active-main-option-btn");
 
 	var visibleDiv = document.querySelectorAll(".main-option-content-area");
 	for (i = 0; i < visibleDiv.length; i++) {
