@@ -89,6 +89,10 @@ header {
 	border: 2px solid var(--Soft-Blue);
 }
 
+.active-meun-login-btn-area {
+	margin: auto 70px auto 70px;
+}
+
 .active-meun-login-btn {
 	text-align: center;
 	color: white;
@@ -96,7 +100,7 @@ header {
 	font-family: 'light';
 	margin-top: 40px;
 	border: 2px solid white;
-	max-width: 400px;
+	max-width: 377px;
 	margin: 40px auto;
 	padding: 10px;
 	width: 100%;
@@ -738,7 +742,7 @@ hr {
 	}
 
 	.option-content-area {
-		margin: 100px 40px auto 0px;
+		margin: 100px 0px auto 0px;
 		justify-content: center;
 	}
 
@@ -840,6 +844,12 @@ hr {
 		position: relative;
 		right: 0px;
 	}
+
+	.option-content-area {
+		margin: 100px 0px auto 0px;
+		justify-content: center;
+	}
+
 }
 
 @media (max-width:400px) {
@@ -848,6 +858,11 @@ hr {
 		width: 100%;
 		height: 175px;
 		top: 225px;
+	}
+
+	.option-content-area {
+		margin: 100px 0px auto 0px;
+		justify-content: center;
 	}
 
 	.section-img {

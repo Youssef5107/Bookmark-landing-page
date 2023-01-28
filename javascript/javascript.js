@@ -34,7 +34,7 @@ function show_hide_answers(clickedBtn_acordion) {
 	else (clickedBtn_acordion.classList.add("active-acordion"))
 }
 
-function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo, body) {
+function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
 	var hiddenMeun = document.querySelector("." + burgerMeun);
@@ -49,7 +49,7 @@ function show_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo, body) {
 
 }
 
-function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo, body) {
+function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 	var meun = document.querySelector("." + visibleMeun);
 	var img = document.querySelector("." + sectionIMG);
 	var hiddenMeun = document.querySelector("." + burgerMeun);
