@@ -52,6 +52,7 @@ header {
 	opacity: .96;
 	margin: -8px;
 	display: none;
+	padding-right: 20px;
 }
 
 .active-meun-header {
