@@ -73,11 +73,11 @@ header {
 	margin: 40px 20px auto 80px;
 	opacity: .3;
 	text-align: center;
-	margin: 40px auto auto;
+	margin: -10px auto auto auto;
 }
 
 .active-meun-option-btn {
-	margin: 40px auto 40px auto;
+	margin: 20px auto 40px auto;
 	color: white;
 	font-family: 'light';
 	font-size: 30px;
