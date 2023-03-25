@@ -550,6 +550,16 @@ hr {
 	margin: auto;
 }
 
+.input-error-area {
+	display: flex;
+	justify-content: flex-start;
+	background-color: red;
+	width: 300px;
+	margin-left: 120px;
+}
+
+.input-error {}
+
 .submit-btn {
 	background-color: var(--Soft-Red);
 	margin-left: 20px;
