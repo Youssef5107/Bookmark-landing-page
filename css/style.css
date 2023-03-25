@@ -542,6 +542,14 @@ hr {
 	width: 30%;
 }
 
+.input-error-img {
+	position: relative;
+	right: 20px;
+	height: 20px;
+	width: 20px;
+	margin: auto;
+}
+
 .submit-btn {
 	background-color: var(--Soft-Red);
 	margin-left: 20px;
