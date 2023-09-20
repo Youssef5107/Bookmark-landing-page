@@ -652,6 +652,27 @@ hr {
 
 }
 
+@media(min-width:1900px) {
+	.option-content-area {
+		margin-right: 10%;
+	}
+
+	.option-title {
+		font-size: 23px;
+	}
+
+	.option-content {
+		font-size: 21px;
+
+	}
+
+	.option-btn {
+		height: 45px;
+		max-width: 125px;
+		font-size: 17px;
+	}
+}
+
 @media(max-width:1000px) and (min-width: 630px) {
 	.main-header-options {
 		margin-right: 50px;
