@@ -63,3 +63,13 @@ function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 	freebody.style.position = "relative";
 
 }
+
+function error_message() {
+	var input = document.querySelector(".email-bar");
+	var errorIMG = document.querySelector(".input-error-img");
+	if (input.innerHTML != "@") {
+		errorIMG.style.display = "block";
+	}
+
+
+}
