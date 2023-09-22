@@ -22,6 +22,11 @@
 	src: url(../fonts/Rubik/static/Rubik-Medium.ttf);
 }
 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 header {
 	display: flex;
 }
@@ -598,10 +603,20 @@ hr {
 	height: 80px;
 }
 
+.nav-bookmark-logo,
 .footer-bookmark-logo {
-	width: 200px;
-	height: 30px;
-	margin: auto 50px auto 70px;
+	width: 17px;
+	height: 17px;
+	margin: auto 0px auto 70px;
+	background-color: var(--Soft-Blue);
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.bookMark-span {
+	margin: auto 10px;
+	color: white;
+	font-family: medium;
 }
 
 .footer-options {
@@ -717,15 +732,9 @@ hr {
 		margin: auto 40px auto 50px;
 	}
 
-
-
 }
 
 @media(max-width:630px) {
-	.bookMark {
-		margin-left: 0px;
-	}
-
 	.main-header-options {
 		display: none;
 	}
@@ -858,12 +867,6 @@ hr {
 		height: 285px;
 		background-color: var(--Very-Dark-Blue);
 		margin: -8px;
-	}
-
-	.footer-bookmark-logo {
-		width: 200px;
-		height: 30px;
-		margin: 35px auto 0px;
 	}
 
 	.footer-option-area {
