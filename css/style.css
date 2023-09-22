@@ -603,6 +603,11 @@ hr {
 	height: 80px;
 }
 
+.footer-logo-area {
+	display: flex;
+	margin-right: 35px;
+}
+
 .nav-bookmark-logo,
 .footer-bookmark-logo {
 	width: 17px;
@@ -850,6 +855,17 @@ hr {
 	.submit-btn {
 		width: 100%;
 		margin: 20px auto;
+	}
+
+	.footer-logo-area {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		margin: 30px 0px auto auto;
+	}
+
+	.footer-bookmark-logo {
+		margin: auto 0px;
 	}
 
 	.lower-footer-content-area {
