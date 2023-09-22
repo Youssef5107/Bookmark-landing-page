@@ -65,11 +65,11 @@ function hide_meun(visibleMeun, sectionIMG, burgerMeun, hiddenLogo) {
 }
 
 function error_message() {
+	var error_msg = document.querySelector(".input-error-message")
 	var input = document.querySelector(".email-bar");
 	var errorIMG = document.querySelector(".input-error-img");
 	if (input.innerHTML != "@") {
 		errorIMG.style.display = "block";
+		error_msg.style.display = "flex";
 	}
-
-
 }
