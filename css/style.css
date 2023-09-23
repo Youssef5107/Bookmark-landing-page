@@ -553,6 +553,7 @@ hr {
 	width: 230px;
 	position: absolute;
 	right: -16%;
+	z-index: 1;
 }
 
 .input-error-img {
@@ -561,6 +562,8 @@ hr {
 	width: 20px;
 	display: none;
 	position: relative;
+	left: 100%;
+	z-index: 2;
 }
 
 .input-error-message {
@@ -569,12 +572,15 @@ hr {
 	color: white;
 	font-family: medium;
 	font-size: 10px;
-	height: 30px;
+	height: 50px;
 	justify-content: center;
-	align-items: center;
-	width: 100%;
+	align-items: end;
+	width: 98%;
 	border-radius: 5px;
 	padding: 5px;
+	position: absolute;
+	right: -2px;
+	top: -12px;
 
 }
 
@@ -860,7 +866,7 @@ hr {
 
 	.submit-btn {
 		width: 100%;
-		margin: 20px auto;
+		margin: 40px auto 20px;
 		left: 0px;
 	}
 
@@ -968,9 +974,13 @@ hr {
 		width: 100%;
 	}
 
+	.input-error-message {
+		font-size: 8px;
+	}
+
 	.submit-btn {
 		width: 100%;
-		margin: 20px 0px;
+		margin: 50px 0px 20px;
 	}
 
 	.option-img1,
