@@ -19,9 +19,9 @@ $(document).ready(function () {
 	});
 
 	$(".main-idea").click(function () {
-		$(".answer").slideUp();
 		$(this).find(".answer").slideToggle();
 		$(this).find(".arrow").toggleClass("arrow-rotate");
+
 	})
 	$(".submit-btn").click(function () {
 		if ($(".email-bar").value != "@") {
