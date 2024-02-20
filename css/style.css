@@ -22,6 +22,11 @@
 	src: url(../fonts/Rubik/static/Rubik-Medium.ttf);
 }
 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 header {
 	display: flex;
 }
@@ -50,15 +55,12 @@ header {
 	width: 100%;
 	background: var(--Very-Dark-Blue);
 	opacity: .96;
-	margin: -8px;
 	display: none;
-	padding-right: 20px;
 }
 
 .active-meun-header {
 	display: flex;
-	margin: 40px;
-	margin-bottom: 100px;
+	margin: 20% 40px 100px;
 }
 
 .close-area-btn {
@@ -82,6 +84,7 @@ header {
 	font-family: 'light';
 	font-size: 30px;
 	text-align: center;
+
 }
 
 .active-meun-login-btn:hover {
@@ -105,6 +108,7 @@ header {
 	margin: 40px auto;
 	padding: 10px;
 	width: 100%;
+	border-radius: 10px;
 }
 
 .active-meun-footer-area {
@@ -468,6 +472,11 @@ hr {
 	height: 10px;
 	position: relative;
 	top: 15px;
+	transition: .4s;
+}
+
+.arrow-rotate {
+	transform: rotate(180deg);
 }
 
 .answer {
@@ -531,11 +540,14 @@ hr {
 .input-area {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .email-input-area {
-	z-index: 1;
+	display: flex;
+	align-items: center;
 	position: relative;
+	align-items: center;
 }
 
 .email-bar {
@@ -544,35 +556,33 @@ hr {
 	border: 0px;
 	padding: 10px;
 	width: 230px;
+	z-index: 1;
 }
 
 .input-error-img {
 	position: relative;
-	right: 32px;
-	top: 5px;
+	right: 30px;
 	height: 20px;
 	width: 20px;
+	display: none;
+	z-index: 2;
 }
 
 .input-error-message {
+	display: none;
 	background: var(--Soft-Red);
 	color: white;
 	font-family: medium;
 	font-size: 10px;
 	height: 50px;
-	width: 245px;
-	right: 309px;
-	display: flex;
+	justify-content: center;
 	align-items: end;
-	position: absolute;
-	bottom: px;
-	/* bottom: -21px; */
-	top: 3168px;
-	z-index: 1px;
-	display: flex;
+	width: 92%;
 	border-radius: 5px;
-	/* margin: 10px; */
 	padding: 5px;
+	position: absolute;
+	right: 16px;
+	top: -4px;
 
 }
 
@@ -600,10 +610,25 @@ hr {
 	height: 80px;
 }
 
+.footer-logo-area {
+	display: flex;
+	margin-right: 35px;
+}
+
+.nav-bookmark-logo,
 .footer-bookmark-logo {
-	width: 200px;
-	height: 30px;
-	margin: auto 50px auto 70px;
+	width: 17px;
+	height: 17px;
+	margin: auto 0px auto 70px;
+	background-color: var(--Soft-Blue);
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.bookMark-span {
+	margin: auto 10px;
+	color: white;
+	font-family: medium;
 }
 
 .footer-options {
@@ -652,6 +677,27 @@ hr {
 
 }
 
+@media(min-width:1900px) {
+	.option-content-area {
+		margin-right: 10%;
+	}
+
+	.option-title {
+		font-size: 23px;
+	}
+
+	.option-content {
+		font-size: 21px;
+
+	}
+
+	.option-btn {
+		height: 45px;
+		max-width: 125px;
+		font-size: 17px;
+	}
+}
+
 @media(max-width:1000px) and (min-width: 630px) {
 	.main-header-options {
 		margin-right: 50px;
@@ -698,15 +744,9 @@ hr {
 		margin: auto 40px auto 50px;
 	}
 
-
-
 }
 
 @media(max-width:630px) {
-	.bookMark {
-		margin-left: 0px;
-	}
-
 	.main-header-options {
 		display: none;
 	}
@@ -810,14 +850,43 @@ hr {
 		margin: 30px 20% auto 20%;
 	}
 
+	.email-input-area {
+		width: 100%;
+	}
+
 	.email-bar {
-		width: 60%;
+		max-width: -webkit-fill-available;
+		width: 100%;
+		right: 0px;
+		position: absolute;
+	}
+
+	.input-error-img {
+		left: 86%;
+	}
+
+	.input-error-message {
+		position: absolute;
+		width: 98%;
+		top: -12px;
+		right: -2px;
 	}
 
 	.submit-btn {
-		margin-top: 20px;
-		width: 66%;
-		margin-right: 20px;
+		width: 100%;
+		margin: 40px auto 20px;
+		left: 0px;
+	}
+
+	.footer-logo-area {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		margin: 30px 0px auto auto;
+	}
+
+	.footer-bookmark-logo {
+		margin: auto 0px;
 	}
 
 	.lower-footer-content-area {
@@ -835,12 +904,6 @@ hr {
 		height: 285px;
 		background-color: var(--Very-Dark-Blue);
 		margin: -8px;
-	}
-
-	.footer-bookmark-logo {
-		width: 200px;
-		height: 30px;
-		margin: 35px auto 0px;
 	}
 
 	.footer-option-area {
@@ -919,9 +982,13 @@ hr {
 		width: 100%;
 	}
 
+	.input-error-message {
+		font-size: 8px;
+	}
+
 	.submit-btn {
 		width: 100%;
-		margin: 20px 0px;
+		margin: 50px 0px 20px;
 	}
 
 	.option-img1,
@@ -939,6 +1006,7 @@ hr {
 		width: 100%;
 		top: 1222px;
 		height: 155px;
+
 	}
 
 }
