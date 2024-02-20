@@ -20,8 +20,7 @@
 			<button class="login-btn">Login</button>
 		</div>
 		<!-- active-nav -->
-		<div role="button" class="burger-meun-area"
-			onclick="show_meun(`active-meun`,`section-img-area`,`burger-img`,`bookMark`,)">
+		<div role="button" class="burger-meun-area">
 			<img class="burger-img" src="images/icon-hamburger.svg" alt="">
 		</div>
 		<nav class="active-meun">
@@ -30,9 +29,7 @@
 					src="images/icons8-bookmark-64 (1).png" alt="bookmark">
 				<span class="bookMark-span">BOOKMARK</span>
 				<div class="close-area-btn">
-					<img class="close-btn" role="button"
-						onclick="hide_meun(`active-meun`,`section-img-area`,`burger-img`,`bookMark`,)"
-						src="images/icon-close.svg" alt="">
+					<img class="close-btn" role="button" src="images/icon-close.svg" alt="">
 				</div>
 			</div>
 			<hr class="nav-hr" style="margin-top:-60px ;">
@@ -87,19 +84,18 @@
 
 		<div class="option-btns-area">
 			<div style="display:grid ;">
-				<button class="main-option-btn active-main-option-btn"
-					onclick="show_hide_divs(`tab1`,`option-btn1-hr`,`btn-hr`,this)">Simple
+				<button class="main-option-btn active-main-option-btn" onclick="show_hide_divs(`tab1`)">Simple
 					Bookmarking</button>
 
 				<hr class="option-btn1-hr btn-hr active-hr">
 			</div>
 			<div style="display:grid ;">
-				<button class="main-option-btn" onclick="show_hide_divs(`tab2`,`option-btn2-hr`,`btn-hr`,this)">Speedy
+				<button class="main-option-btn" onclick="show_hide_divs(`tab2`)">Speedy
 					Searching</button>
 				<hr class="option-btn2-hr btn-hr">
 			</div>
 			<div style="display:grid ;">
-				<button class="main-option-btn" onclick="show_hide_divs(`tab3`,`option-btn3-hr`,`btn-hr`,this)">Easy
+				<button class="main-option-btn" onclick="show_hide_divs(`tab3`)">Easy
 					Sharing</button>
 				<hr class="option-btn3-hr btn-hr">
 			</div>
@@ -273,7 +269,7 @@
 					<img class="input-error-img" src="images/icon-error.svg" alt="input error">
 					<div class="input-error-message">Whoops, make sure it's an email</div>
 				</div>
-				<input class="submit-btn" onclick="error_message()" type="submit" value="contact us">
+				<input class="submit-btn" type="submit" value="contact us">
 
 			</form>
 

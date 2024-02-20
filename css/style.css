@@ -58,9 +58,13 @@ header {
 	display: none;
 }
 
+.active-nav-hidden-content {
+	display: none;
+}
+
 .active-meun-header {
 	display: flex;
-	margin: 20% 40px 100px;
+	margin: 15% 40px 100px;
 }
 
 .close-area-btn {
@@ -227,6 +231,7 @@ section {
 	display: flex;
 	flex-grow: 1;
 	justify-content: end;
+	transition: 1s;
 }
 
 .section-img {
