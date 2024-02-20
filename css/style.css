@@ -752,6 +752,10 @@ hr {
 }
 
 @media(max-width:630px) {
+	.bookMark {
+		margin-left: 14px;
+	}
+
 	.main-header-options {
 		display: none;
 	}
