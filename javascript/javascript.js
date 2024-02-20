@@ -3,12 +3,14 @@ $(document).ready(function () {
 		$(".bookMark").addClass("active-nav-hidden-content");
 		$(".burger-img").addClass("active-nav-hidden-content");
 		$(".section-img-area").css('opacity', '.1')
+		$("body").css("position", "fixed")
 		$(".active-meun").slideDown()
 	});
 	$(".close-btn").click(function () {
 		$(".bookMark").removeClass("active-nav-hidden-content");
 		$(".burger-img").removeClass("active-nav-hidden-content");
 		$(".section-img-area").css('opacity', '1')
+		$("body").css("position", "")
 		$(".active-meun").slideUp()
 	});
 	$(".main-option-btn").click(function () {
