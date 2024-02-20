@@ -19,6 +19,7 @@ $(document).ready(function () {
 	});
 
 	$(".main-idea").click(function () {
+		$(".answer").slideUp();
 		$(this).find(".answer").slideToggle();
 		$(this).find(".arrow").toggleClass("arrow-rotate");
 	})
