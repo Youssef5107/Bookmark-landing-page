@@ -22,11 +22,6 @@
 	src: url(../fonts/Rubik/static/Rubik-Medium.ttf);
 }
 
-body {
-	margin: 0px;
-	padding: 0px;
-}
-
 header {
 	display: flex;
 }
