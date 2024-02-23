@@ -3,7 +3,8 @@ $(document).ready(function () {
 		$(".bookMark").addClass("active-nav-hidden-content");
 		$(".burger-img").addClass("active-nav-hidden-content");
 		$(".section-img-area").css('opacity', '.1')
-		$("body").css("position", "fixed")
+		$("body").css("position", "fixed");
+		$("body").css("margin", "0px")
 		$(".active-meun").slideDown()
 	});
 	$(".close-btn").click(function () {
@@ -11,6 +12,7 @@ $(document).ready(function () {
 		$(".burger-img").removeClass("active-nav-hidden-content");
 		$(".section-img-area").css('opacity', '1')
 		$("body").css("position", "")
+		$("body").css("margin", "")
 		$(".active-meun").slideUp()
 	});
 	$(".main-option-btn").click(function () {
