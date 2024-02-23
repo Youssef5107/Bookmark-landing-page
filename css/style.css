@@ -22,6 +22,10 @@
 	src: url(../fonts/Rubik/static/Rubik-Medium.ttf);
 }
 
+body {
+	transition: 1s;
+}
+
 header {
 	display: flex;
 }
